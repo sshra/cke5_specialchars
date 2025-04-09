@@ -1,1 +1,1 @@
-Morphems plugins (for CKeditor5)
+Special chats plugin (for CKeditor5)
