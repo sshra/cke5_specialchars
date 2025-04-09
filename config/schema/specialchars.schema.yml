@@ -1,0 +1,11 @@
+
+# Plugin \Drupal\specialchars\Plugin\CKEditor5Plugin\specialchars
+ckeditor5.plugin.specialchars_specialchars:
+  type: mapping
+  label: 'Special Chars settings'
+  mapping:
+    chartable:
+      type: string
+      label: 'Char table to define special chars'
+
+

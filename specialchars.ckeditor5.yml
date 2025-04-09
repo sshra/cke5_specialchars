@@ -1,0 +1,15 @@
+specialchars_specialchars:
+  ckeditor5:
+    plugins:
+      - specialchars.Specialchars
+  drupal:
+    label: Special Chars CKE5
+    # Drupal library with the plugin JS.
+    library: specialchars/specialchars
+    admin_library: specialchars/admin.styles
+    class: Drupal\specialchars\Plugin\CKEditor5Plugin\Specialchars
+    # Toolbar button.
+    toolbar_items:
+      Specialchars:
+        label: Special Chars CKE5
+

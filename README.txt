@@ -1,1 +1,1 @@
-Special chats plugin (for CKeditor5)
+Special Chars plugin (for CKeditor v5)

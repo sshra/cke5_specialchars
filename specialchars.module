@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Contains specialchars.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function specialchars_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.specialchars':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Allows to use specialchars plugin in CKEditor 5. Add a tool on the text formats page.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
