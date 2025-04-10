@@ -12,4 +12,4 @@ specialchars_specialchars:
     toolbar_items:
       Specialchars:
         label: Special Chars CKE5
-
+    elements: false
